@@ -1,11 +1,8 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
+*,
 *::after,
 *::before {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
@@ -92,4 +89,15 @@ nav [alt="logo"] {
   object-fit: contain;
   transform: scale(0.65);
   z-index: -1;
+}
+
+.vector-img {
+  position: absolute;
+  top: 600px;
+}
+
+.vector-dot {
+  position: absolute;
+  top: 600px;
+  left: 80px;
 }
