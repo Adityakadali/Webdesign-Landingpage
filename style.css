@@ -25,9 +25,24 @@ nav [alt="logo"] {
   height: 40px;
 }
 
+@media (max-width: 480px) {
+  nav [alt="logo"] {
+    height: 30px;
+  }
+  .signin-btn {
+    margin-right: 10px;
+  }
+}
+
 .nav-items {
-  display: flex;
+  display: none;
   gap: 2em;
+}
+
+@media (min-width: 976px) {
+  .nav-items {
+    display: flex;
+  }
 }
 
 .nav-item {
@@ -50,6 +65,12 @@ nav [alt="logo"] {
 .intro-section {
   height: 100vh;
   display: flex;
+}
+
+@media (max-width: 976px) {
+  .imgs-div {
+    display: none;
+  }
 }
 
 .left-section {
